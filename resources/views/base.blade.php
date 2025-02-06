@@ -39,6 +39,10 @@
         .activee {
             background-color:rgba(110, 116, 121, 0.86);
         }
+        .format{
+            width: 1000px;
+        }
+
       
     </style>
 </head>
