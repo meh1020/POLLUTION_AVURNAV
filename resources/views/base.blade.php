@@ -51,7 +51,7 @@
         <h4 class="text-center">Menu</h4>
         <a href="{{ url('/avurnav') }}" class="mt-5 {{ request()->is('avurnav*') ? 'activee' : '' }}">FORMAT AVURNAV</a>
         <a href="{{ url('/pollutions') }}" class=" {{ request()->is('pollution*') ? 'activee' : '' }}">POLLUTIONS</a>
-        <a href="{{ url('/avurnav') }}">FORMAT SITREP</a>
+        <a href="{{ url('/sitreps') }}" class=" {{ request()->is('sitrep*') ? 'activee' : '' }}">FORMAT SITREP</a>
     </div>
     <div class="container-fluid">
         @yield('topmenu')

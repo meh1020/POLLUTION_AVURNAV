@@ -21,3 +21,15 @@ Route::resource('pollutions', PollutionController::class);
 
 Route::get('/export-pdf/{id}', [PollutionController::class, 'exportPDF'])->name('pollutions.exportPDF');
 
+
+use App\Http\Controllers\SitrepController;
+
+Route::resource('sitreps', SitrepController::class);
+
+Route::get('/sitreps/{id}/export-pdf', [SitrepController::class, 'exportPDF'])->name('sitreps.exportPDF');
+
+
+
+
+
+
